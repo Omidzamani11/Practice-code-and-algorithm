@@ -1,4 +1,4 @@
-def strStr2(s,x):
+def strStr23(s,x):
   if x not in s:
     return -1
   n = len(x)
@@ -8,4 +8,4 @@ def strStr2(s,x):
     if s[i:i+n] == x :
       return i
   return -1
-strStr2 ("omid","id")
+strStr23 ("omid","id")
